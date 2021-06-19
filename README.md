@@ -13,9 +13,15 @@ Here,
 --                                                                                   
 -- For reading only one employee : http://localhost:8088/api/employees/{id} (GET METHOD)             
 --                                                                                       
--- For creating new employee : http://localhost:8088/api/employees (PUT METHOD) and    
+-- For creating new employee : http://localhost:8088/api/employees (POST METHOD) and    
 --
-   send json { "firstName": "Jam", "lastName": "Garner", "email": "Jame@code.com" } into the body.
+-- send json { "firstName": "Jam", "lastName": "Garner", "email": "Jame@code.com" } into the body.
+--
+-- For updating : http://localhost:8088/api/employees (PUT METHOD) and                 
+--
+-- send json { "id": {id}, firstName": "Jam", "lastName": "Garner", "email": "Jam@coding.com" } into the body.
+--
+-- For Deleting existing employee: http://localhost:8088/api/employees/{id} (DELETE METHOD)
 --
 
  
