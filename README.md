@@ -1,7 +1,7 @@
 # Employee REST API 
 Exposing Rest Api with help of Spring Boot (Java Framework) , Hibernate and MySQL.
 This Api is will used Postman as its client.
-This Api can perform CRUD Operations
+This Api can perform CRUD Operations.
 
 Here,
  CREATE  will use # POST method.
